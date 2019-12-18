@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/java.css">
+</head>
+<body>
+    <div class="header">
+        <h1>DATA</h1>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Images.html">Images</a></li>
+        <li><a href="java.html">Data</a></li>
+        <li><a href="videos.html">videos</a></li>
+        <li><a href="Places.html"> Places</a></li> 
+        <li><a href="Dreamplace.html">Dream Place</a></li>
+        <li><a href="Information.html">Information</a></li>
+       </ul>
+       <br>
+<br>
+<div1>
+<h3>
+This page contains an embedded java script.<br>
+The script opens an external csv formatted file.<br>
+The ability to open an external file enables us to read data supplied by external programs<br>
+We could read the current weather conditions or the contents of a servers log files<br><br>
+The external file is read by the script and turned into an HTML Table, with visible borders.<br><br>
+To run the script click on the activator below<br>
+</h3><br>
+</div1>
+<p align="center"><button type="button" onclick="mytable()">Click Here</button></p>
+
+<script src="./csv-buton/d3.v3.min.js"></script> 
+
+<script type="text/javascript" charset="utf-8"> 
+function mytable() {
+            d3.text("./csv-buton/data.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+                var container = d3.select("body")
+                    .append("table")
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                       .append("tr")
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+    }
+        </script>
+        <br> 
+        <br>
+        <br>
+        <br>
+       <div class="footer">
+        <p>This is the Table page of my website<br>
+            Name=Gagandeep Singh<br>
+            Student Id=30029497<br>
+        </p>
+       </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+
+    padding: 1px 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px,10px;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center; 
+    padding: 20px 100px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:green;
+  }
+  body {
+    background-image:url("https://wallpapershome.com/images/wallpapers/mountains-5120x2880-5k-4k-wallpaper-8k-lake-forest-12596.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .i1{
+    width:50%;
+    text-align: center;
+    color:whitesmoke;
+    text-emphasis: style;
+    padding: 100px 375px;
+    font-size: 20px;
+    float: left;
+  }
+  .i2{
+    width: 50%;
+  text-align: center;
+    color:whitesmoke;
+    padding: 0px 490px;
+    float: left;
+    font-size: 20px;
+    text-emphasis: style;
+ }
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: whitesmoke;
+    /* text-align: left; */
+    padding-left: 1600px;
+ }

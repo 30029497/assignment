@@ -1,0 +1,113 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  color:black;
+  text-align: center;
+  font-size: xx-large;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px,10px;
+  overflow: hidden;
+  background-color:black;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center; 
+  padding: 18px 100px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:green;
+}
+body {
+  background-image:url("https://media.idownloadblog.com/wp-content/uploads/2014/09/Delphox-Designs-iOS-8-Desktop-Wallpaper-6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  font-size: larger;
+  text-align: center;
+
+}
+
+table, th, td {
+    text-align: left;
+    padding: 50px 50px;
+  border: 8px solid black;
+  border-collapse: collapse;
+  color: black;
+  
+}
+th, td {
+  padding: 10px;
+  text-align: left;    
+  font-size: larger;
+}
+.main{
+    width: 100%;
+  height: auto;
+  color:black;
+  text-emphasis: style;
+  padding: 0px 0px;
+  font-size: 20px;
+  float: left;
+}
+.i1{
+  width:100%;
+  text-align: center;
+  color:black;
+  text-emphasis: style;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+.i2{
+  width:100%;
+  text-align: center;
+  color:black;
+  text-emphasis: style;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+.i3{
+  width:100%;
+  text-align: center;
+ 
+  text-emphasis: style;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+.i4{
+  width:100%;
+  text-align: center;
+  color:black;
+  text-emphasis: style;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+.i5{
+  width:100%;
+  text-align: center;
+  color:black;
+  text-emphasis: style;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: whitesmoke;
+  text-align: right;
+}

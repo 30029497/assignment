@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+  width: 100%;
+    color:black;
+    text-align: center;
+    font-size: xx-large;
+}
+ul {
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px,10px;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center; 
+    padding: 20px 100px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:green;
+  }
+  body {
+    background-image:url("https://www.tripsavvy.com/thmb/rpuVeYtgWgGXOCPgAHhYY3CcM5Q=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-171345203-5bd3727bc9e77c005134b2da.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .i1{
+    width:100%;
+    text-align: center;
+    color:black;
+    text-emphasis: style;
+    padding: 10px 10px;
+    font-size: 30px;
+  }
+  .i2{
+    width:100%;
+    text-align: center;
+    color:black;
+    text-emphasis: style;
+    padding: 10px 10px;
+    font-size: 30px;
+  }
+  .i3{
+    width:100%;
+    text-align: center;
+    color:black;
+    text-emphasis: style;
+    padding: 40px 60px;
+    font-size: 30px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: whitesmoke;
+    /* text-align: left; */
+    padding-left: 1400px;
+ }
